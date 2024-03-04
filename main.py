@@ -1,5 +1,4 @@
 import pygame, sys
-from Score import Score
 from functions import *
 from itertools import chain
 from utils import *
@@ -152,7 +151,6 @@ def play():
     #print(f"Winner is player: {winner}")
 
 def main_menu():
-
     while True:
         MENU_MOUSE_POS = pygame.mouse.get_pos()
         WIN.fill(WHITE)
@@ -180,5 +178,5 @@ def main_menu():
                     pygame.quit()
                     sys.exit()
         pygame.display.update()
-        
+
 main_menu()
