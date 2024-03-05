@@ -20,7 +20,7 @@
 To install the AI-powered UNO game, follow these steps:
 
 ```bash
-git clone https://github.com/Karim977/UNO-GAME.git
+git clone https://github.com/karim-elkobrossy/UNO-GAME
 cd UNO-game
 pip install -r requirements.txt
 ```
